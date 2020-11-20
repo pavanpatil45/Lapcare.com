@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.head
+{ border:solid 1px #CCCCCC;padding:1% 1% 1% 1%; inline-block}
+
+
+.column1 {width:29%;  display: inline-block; vertical-align:top; padding:1% 1% 1% 1%; font-size:20px; }
+
+
+
+
+.style1 {
+	font-size: 22px;
+	color: #00000;
+	font-weight:bold;
+	font-family: sans-serif;
+}
+.style2 {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.style5 {font-size: 24px; color: #0033FF;}
+.style6 {color: #000000}
+
+.style6 {color: #000000; font-size: 20px; font-family: calibri;}
+
+
+.style7 {color: #813800; font-family: verdana; font-size: 18px;}
+.style8 {color: #00FF00; font-size:24px;}
+.style9	{color:#FCFDCC; font-size:24px;text-decoration:none}
+#back	{ position:fixed; right:1%; bottom:0;}
