@@ -2,6 +2,7 @@ function validate() {
 	var result = "";	
 	result += validateName(); 
 	result += validateMobile(); 
+	result += validateAdd();
 	result += validateEmail();
 	result += validateSubject(); 
 	result += validateMessage(); 
@@ -27,6 +28,13 @@ function validateMobile(){
 	return "";	
 }
 
+function validateAdd(){
+	var address = document.getElementsByName("address")[0].value;
+	if (!address)
+		return "please type your Address \n";	
+	return "";	
+}
+
 function validateEmail() {
 	var email = valueOf("email");
 	
@@ -44,8 +52,8 @@ function validateSubject(){
 
 function validateMessage(){
 	var message = document.getElementsByName("message")[0].value;
-	if (!message)
-		return "please type your Message";	
+	if (message.length <= 150)
+		return "please type your Message (atleast 150 characters) \n";	
 	return "";	
 }
 
