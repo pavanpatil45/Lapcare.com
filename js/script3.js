@@ -5,7 +5,9 @@ function validate() {
 	result += validatePassword();
 	result += validateTerms();
 	
-	if (result == "") return true;
+	if (result == "")
+		alert("Success !!");
+	else
 	
 	alert("Validation Result:\n\n" + result);
 	return false;	
@@ -23,7 +25,7 @@ function validatePassword() {
 	var password = valueOf("password");
 	var retype = valueOf("retype_password");
 	
-	if (password.length <= 6) 
+	if (password.length < 6) 
 		return "Password should be at least 6 characters.\n";
 	
 	if (password != retype) 

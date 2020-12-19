@@ -3,10 +3,11 @@ function validate() {
 	result += validateEmail(); 
 	result += validatePassword();
 
-	if (result == "") return true;
-	
+	if (result == "")
+		alert("Success !!");
+	else
 	alert("Validation Result:\n" + result);
-	return false;	
+	return false;		
 }
 
 function validateEmail() {

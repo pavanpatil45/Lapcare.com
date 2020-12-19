@@ -7,7 +7,9 @@ function validate() {
 	result += validateSubject(); 
 	result += validateMessage(); 
 	
-	if (result == "") return true;
+	if (result == "")
+		alert("Success !!");
+	else
 	
 	alert("Validation Result:\n" + result);
 	return false;	
