@@ -1,5 +1,5 @@
 ## Lapcare.com
-### [View Website](https://pavanpatil45.github.io/Lapcare.com/) 👈(proper view on Desktop only)
+### [View Website](https://pavanpatil45.github.io/Lapcare.com/) 👈 (Proper view is on Desktop only)
 
 This is my TE IT SEPM mini Project, using JavaScript, CSS and HTML5.  
 This website showcase the typical services of Laptop service center,  
