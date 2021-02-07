@@ -7,7 +7,8 @@ function validate() {
 		alert("Success !!");
 	else
 	alert("Validation Result:\n" + result);
-	return false;		
+	return false;	
+	
 }
 
 function validateEmail() {
